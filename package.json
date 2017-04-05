@@ -1,0 +1,26 @@
+{
+  "name": "domthingy",
+  "version": "1.0.0",
+  "description": "dom thing for learning purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tim-hr/domthingy.git"
+  },
+  "author": "manzoid <manzoid@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tim-hr/domthingy/issues"
+  },
+  "homepage": "https://github.com/tim-hr/domthingy#readme",
+  "dependencies": {
+    "jsdom": "^9.12.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
